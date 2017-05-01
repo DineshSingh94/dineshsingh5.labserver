@@ -1,0 +1,5 @@
+---
+dineshsingh5.mylabsever.com:
+  role: read-write
+pe-internal-dashboard:
+  role: read-write

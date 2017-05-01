@@ -1,0 +1,85 @@
+--- 
+  kernel: Linux
+  hostname: dineshsingh5
+  domain: mylabserver.com
+  fqdn: dineshsingh5.mylabserver.com
+  architecture: x86_64
+  augeasversion: "1.1.0"
+  blockdevice_xvde_size: 21474836480
+  blockdevices: xvde
+  macaddress: "0A:FD:17:C1:BD:08"
+  osfamily: RedHat
+  operatingsystem: CentOS
+  facterversion: "1.7.5"
+  filesystems: "ext4,iso9660"
+  hardwareisa: x86_64
+  hardwaremodel: x86_64
+  id: root
+  interfaces: "eth0,lo"
+  ipaddress_eth0: "172.31.38.197"
+  macaddress_eth0: "0A:FD:17:C1:BD:08"
+  netmask_eth0: "255.255.240.0"
+  mtu_eth0: "1500"
+  ipaddress_lo: "127.0.0.1"
+  netmask_lo: "255.0.0.0"
+  mtu_lo: "65536"
+  ipaddress: "172.31.38.197"
+  kernelmajversion: "2.6"
+  kernelrelease: "2.6.32-696.1.1.el6.x86_64"
+  kernelversion: "2.6.32"
+  memorysize: "1.62 GB"
+  memoryfree: "695.90 MB"
+  swapsize: "4.00 GB"
+  swapfree: "4.00 GB"
+  swapsize_mb: "4092.00"
+  swapfree_mb: "4092.00"
+  memorysize_mb: "1655.01"
+  memoryfree_mb: "695.90"
+  memorytotal: "1.62 GB"
+  netmask: "255.255.240.0"
+  network_eth0: "172.31.32.0"
+  network_lo: "127.0.0.0"
+  operatingsystemmajrelease: "6"
+  operatingsystemrelease: "6.9"
+  path: "/usr/bin:/bin:/usr/sbin:/sbin"
+  physicalprocessorcount: 1
+  processor0: "Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz"
+  processorcount: "1"
+  ps: "ps -ef"
+  puppetversion: "3.6.2 (Puppet Enterprise 3.3.2)"
+  rubysitedir: /opt/puppet/lib/ruby/site_ruby/1.9.1
+  rubyversion: "1.9.3"
+  selinux: "false"
+  sshdsakey: "AAAAB3NzaC1kc3MAAACBAOfGfp7WaYZNHV+33PYNrsUkYJc3DFOasEWV6jv5N48ItjodfduG9Ye3cmTMcw5nBXKP+sPx9MAFa9/MclOozZtWDISP8u8kDeG7VTotX+WIRolnKZ8dM8o6nYjPn0rgdfrOIRS6l/a1Q/DJAoevflKcgZPYd9jQbCYObDv/LO0hAAAAFQCV43H2TBbP8oIJ4+QJS5vPkcHsSwAAAIBSWSdG0xPJxY2SADCv6i+pMgWyFbVUwgKscouUjQF1pXDxwG3hdJyhljWGy48yXr/R3AyZ+LQRlDzt9PVt3I8u35E7L2DXl9TGfhjJhiz4sOxDlQMJ9ha+Y5Ae7urfwjtBgkzpHEeImxrqK42iQSG1gtw1DLGF4H+CqqQ3E+puBwAAAIAOyxR3xRexyUi/syOIIAn+NMhzy12LeggkIK9kubGWSNM9tJL8+SRYdsj0sGrE8fvu7mKReleffsRxpdMlonuVWAu6vPnpX3pNbrZASedG+v4LgJwVIYOdyMb7qN14/zNk5gDtLf0vMfTB6q69zWzpW5mZqOyApIvDohsQ5nxxaA=="
+  sshfp_dsa: |-
+    SSHFP 2 1 9ee5895b0461e1c99faf0de077f099b531a09125
+    SSHFP 2 2 3010694a076dcfd50a03b57acfc9b80555fba579049e4b90af2e112d00606e5f
+  sshrsakey: "AAAAB3NzaC1yc2EAAAABIwAAAQEAumgDumJ4EuubMaget3xgkJj4t4ZCjvovvS7eTioSoQBBLQ9hGr+CjkEav18XpFGhoiygBPKEa9nvlOFxHPyZdJuXVv0DuqG3K/6mglhNikgfvToFMvD21aQFNeqLmGPYTqTDpqVsAYhEejRQ0h5nkV+WUF5jEVJZQoWv/TEbA9WAyNWL1ktmjwG0dTMdfndMO7FrPsTpcG3jGKX3kFIlY53a/i9dZ7XjrJb/sEcVs23qbpbqp4mXStJQk4KzvAjAaAScfrWNGmVnXwvVDMy4Sh4prETEDtVwqipkRwfVCkvWtWStyHSVFJJndsxU55voUUH/Hj44VK7RQKDxSQFf0w=="
+  sshfp_rsa: |-
+    SSHFP 1 1 d2780e7e7c0f6ddd3947983393a901916f89fec2
+    SSHFP 1 2 2f3f558316040084bd2eda9c595c6763b5fdcc194d0f1fe49dc50c437083c3c6
+  timezone: UTC
+  uniqueid: ac366cad
+  uptime: "0:15 hours"
+  uptime_days: 0
+  uptime_hours: 0
+  uptime_seconds: 912
+  virtual: xenu
+  is_virtual: "true"
+  concat_basedir: /var/opt/lib/pe-puppet/concat
+  custom_auth_conf: "false"
+  ip6tables_version: "1.4.7"
+  iptables_version: "1.4.7"
+  pe_build: "3.3.2"
+  pe_postgres_default_version: "8.4"
+  pe_puppetdb_server_status: configured
+  pe_version: "3.3.2"
+  is_pe: true
+  pe_major_version: "3"
+  pe_minor_version: "3"
+  pe_patch_version: "2"
+  platform_tag: el-6-x86_64
+  postgres_default_version: "8.4"
+  puppet_vardir: /var/opt/lib/pe-puppet
+  root_home: /root
+  staging_http_get: curl

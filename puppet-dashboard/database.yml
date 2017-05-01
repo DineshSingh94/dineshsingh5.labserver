@@ -1,0 +1,17 @@
+common: &common
+    database: console
+    username: console
+    password: 'EBjnsW7S_Gj5OS5QZXY-Ug'
+    host: dineshsingh5.mylabsever.com
+    port: 5432
+    adapter: postgresql
+
+development:
+    <<: *common
+
+production:
+    <<: *common
+
+test:
+    database: console_test
+    <<: *common
